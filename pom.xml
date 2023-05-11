@@ -110,7 +110,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>Tesla-fe-app</finalName>
+		<finalName>Tesla</finalName>
 		
 		<plugins>
 			<plugin>
