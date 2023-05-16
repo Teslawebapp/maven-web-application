@@ -14,7 +14,7 @@ stage('4UploadArtifacts'){
 }    
 stage('5deploy2UAT'){
     sh "${mavenHome}/bin/mvn deploy"
-deploy adapters: [tomcat9(credentialsId: 'Titomcat-credentials', path: '', url: 'http://http://44.203.56.46:8177')], contextPath: null, war: 'target/*war'
+deploy adapters: [tomcat9(credentialsId: 'Titomcat-credentials', path: '', url: 'http://44.203.56.46:8177')], contextPath: null, war: 'target/*war'
     }  
 stage('6Manualapproval'){
     sh "echo 'Application is ready for review' "
@@ -24,7 +24,7 @@ stage('6Manualapproval'){
     }  
 stage('7deploy2prod'){
     sh "${mavenHome}/bin/mvn deploy"
-deploy adapters: [tomcat9(credentialsId: 'Titomcat-credentials', path: '', url: 'http://http://44.203.56.46:8177')], contextPath: null, war: 'target/*war'
+deploy adapters: [tomcat9(credentialsId: 'Titomcat-credentials', path: '', url: 'http://44.203.56.46:8177')], contextPath: null, war: 'target/*war'
     }  
   stage('8emailnotify'){
     emailext body: '''Hello Team,
