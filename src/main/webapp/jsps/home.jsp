@@ -17,7 +17,7 @@
 	Congratulations!! Welcome to Landmark Technology!! Welcome to your ENVIABLE IT CAREER.
 	We offer interview preparations, job assittance and B.sc certification
 	The shout of a King is in our midst. His name is JESUS. What a wonderful name it is. HE IS OUR SUCCESS ACCESS KEY.
-	Thanks for being an ambassador of Landmark Technology.Class 32 started on April 22, 2023. President</h1>
+	Thanks for being an ambassador of Landmark Technology.Class 32 started on April 22, 2023.We thank God. President</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
